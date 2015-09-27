@@ -56,7 +56,7 @@ jumpspeed = 12;
             <kind>1</kind>
             <string>key_jump= mouse_check_button(mb_left);
 
-if (place_meeting(x,y+vsp,obj_ground))
+if ((place_meeting(x,y+vsp,obj_ground))&amp;&amp; global.gameover !=1)
 {
     while(!place_meeting(x,y+sign(vsp),obj_ground))
     {
@@ -78,8 +78,10 @@ if (place_meeting(x,y+1,obj_ground)&amp;&amp; global.gameover==0)
     vsp = key_jump * -jumpspeed;
 }
 
-
-
+if (global.gameover!=2)
+{
+image_angle +=-10;
+}
 
 
 </string>
