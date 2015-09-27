@@ -108,7 +108,6 @@ image_angle +=-10;
             <kind>1</kind>
             <string>if (global.gameover==2)
 {
-with obj_draw_text instance_destroy();
 with obj_text instance_destroy();
 with obj_ground_spawner alarm[0]=30;
 global.gameover=0;

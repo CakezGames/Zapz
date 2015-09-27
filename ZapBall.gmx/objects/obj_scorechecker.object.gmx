@@ -8,7 +8,7 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="8" enumb="0">
+    <event eventtype="4" ename="obj_ball">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_text(250,250, global.score);
+            <string>global.score ++;
+instance_destroy();
 </string>
           </argument>
         </arguments>
