@@ -56,6 +56,7 @@
     <instance objName="obj_ground_spawner" x="448" y="0" name="inst_2E400B1C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_text" x="288" y="64" name="inst_09E4F38B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_draw_text" x="320" y="224" name="inst_57E3319B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snd_player" x="192" y="224" name="inst_A0AAF9A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
