@@ -108,7 +108,7 @@ if (place_meeting(x,y+1,obj_ground)&amp;&amp; global.gameover==0)
 {
 with obj_draw_text instance_destroy();
 with obj_text instance_destroy();
-with obj_ground_spawner alarm[0]=40;
+with obj_ground_spawner alarm[0]=30;
 global.gameover=0;
 }
 </string>

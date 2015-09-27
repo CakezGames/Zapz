@@ -58,6 +58,11 @@ if (global.gameover==1)
 {
 hspeed=0;
 }
+
+if(x&lt;-sprite_width)
+{
+instance_destroy();
+}
 </string>
           </argument>
         </arguments>
