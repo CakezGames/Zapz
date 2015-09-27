@@ -18,6 +18,7 @@
       <sprite>sprites\spr_text</sprite>
     </sprites>
     <sprite>sprites\spr_scorechecker</sprite>
+    <sprite>sprites\spr_zapz</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -33,12 +34,12 @@
     <object>objects\obj_ground</object>
     <object>objects\obj_ball</object>
     <object>objects\obj_antenn</object>
-    <object>objects\obj_text</object>
     <object>objects\obj_draw_text</object>
     <object>objects\snd_player</object>
     <object>objects\obj_snow</object>
     <object>objects\obj_part_1</object>
     <object>objects\obj_scorechecker</object>
+    <object>objects\obj_text</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Game</room>
