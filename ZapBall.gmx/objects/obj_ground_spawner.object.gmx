@@ -123,11 +123,11 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>1000</string>
+            <string>1140</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>obj_ground.y-150</string>
+            <string>obj_ground.y-70</string>
           </argument>
         </arguments>
       </action>
