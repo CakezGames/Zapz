@@ -19,6 +19,8 @@
     </sprites>
     <sprite>sprites\spr_scorechecker</sprite>
     <sprite>sprites\spr_zapz</sprite>
+    <sprite>sprites\spr_trophy</sprite>
+    <sprite>sprites\spr_highscore</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -40,6 +42,8 @@
     <object>objects\obj_part_1</object>
     <object>objects\obj_scorechecker</object>
     <object>objects\obj_text</object>
+    <object>objects\obj_trophy</object>
+    <object>objects\obj_highscores</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Game</room>
