@@ -37,13 +37,13 @@
     <object>objects\obj_ball</object>
     <object>objects\obj_antenn</object>
     <object>objects\obj_draw_text</object>
-    <object>objects\snd_player</object>
     <object>objects\obj_snow</object>
     <object>objects\obj_part_1</object>
     <object>objects\obj_scorechecker</object>
     <object>objects\obj_text</object>
     <object>objects\obj_trophy</object>
     <object>objects\obj_highscores</object>
+    <object>objects\obj_snd</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Game</room>
