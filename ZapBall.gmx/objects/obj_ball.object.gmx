@@ -66,7 +66,7 @@ if ((place_meeting(x,y+vsp,obj_ground))&amp;&amp; global.gameover !=1)
 }
 y += vsp;
 
-if (y &gt; 360)
+if (y &gt; 358)
 {
 global.gameover=1;
 }
@@ -83,6 +83,7 @@ if (global.gameover!=2)
 image_angle +=-10;
 }
 
+ 
 
 </string>
           </argument>
