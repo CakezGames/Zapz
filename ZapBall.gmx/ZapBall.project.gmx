@@ -34,6 +34,7 @@
   <objects name="objects">
     <object>objects\obj_ground_spawner</object>
     <object>objects\obj_ground</object>
+    <object>objects\obj_ground_first</object>
     <object>objects\obj_ball</object>
     <object>objects\obj_antenn</object>
     <object>objects\obj_draw_text</object>
