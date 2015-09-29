@@ -11,7 +11,6 @@
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
   <code>global.gameover=2;
-global.highscore=0;
 global.score=0;
 global.hsp  = 0;
 global.spawnrate = 130;</code>
@@ -57,12 +56,12 @@ global.spawnrate = 130;</code>
   <instances>
     <instance objName="obj_ball" x="288" y="320" name="inst_9D72075D" locked="0" code="" scaleX="0.625" scaleY="0.625" colour="4294967295" rotation="0"/>
     <instance objName="obj_ground_spawner" x="448" y="0" name="inst_2E400B1C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_draw_text" x="320" y="224" name="inst_57E3319B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_score" x="320" y="224" name="inst_57E3319B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_snow" x="64" y="32" name="inst_58632616" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_part_1" x="64" y="192" name="inst_32C6E35C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_text" x="64" y="0" name="inst_B3D62D97" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_trophy" x="32" y="256" name="inst_7EAFB441" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_highscores" x="-96" y="-64" name="inst_F9994DD2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="&lt;undefined&gt;" x="-96" y="-64" name="inst_F9994DD2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_snd" x="768" y="0" name="inst_85D49B90" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ground_first" x="330" y="490" name="inst_351AD349" locked="0" code="" scaleX="1.12000000476837" scaleY="1.12000000476837" colour="4294967295" rotation="0"/>
     <instance objName="obj_ground_spawner" x="-352" y="256" name="inst_9EFBA35B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

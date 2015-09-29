@@ -16,6 +16,7 @@
     <sprite>sprites\dwa</sprite>
     <sprites name="Menu">
       <sprite>sprites\spr_text</sprite>
+      <sprite>sprites\spr_retry</sprite>
     </sprites>
     <sprite>sprites\spr_scorechecker</sprite>
     <sprite>sprites\spr_zapz</sprite>
@@ -31,20 +32,23 @@
     <background>background\background6</background>
   </backgrounds>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\font_score</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_ground_spawner</object>
     <object>objects\obj_ground</object>
     <object>objects\obj_ground_first</object>
     <object>objects\obj_ball</object>
     <object>objects\obj_antenn</object>
-    <object>objects\obj_draw_text</object>
+    <object>objects\obj_score</object>
     <object>objects\obj_snow</object>
     <object>objects\obj_part_1</object>
     <object>objects\obj_scorechecker</object>
     <object>objects\obj_text</object>
     <object>objects\obj_trophy</object>
-    <object>objects\obj_highscores</object>
     <object>objects\obj_snd</object>
+    <object>objects\obj_retry</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Game</room>
