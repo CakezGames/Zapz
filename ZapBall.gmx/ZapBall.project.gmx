@@ -33,6 +33,7 @@
   </backgrounds>
   <paths name="paths"/>
   <fonts name="fonts">
+    <font>fonts\font_highscore</font>
     <font>fonts\font_score</font>
   </fonts>
   <objects name="objects">

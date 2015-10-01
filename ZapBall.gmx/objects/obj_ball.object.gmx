@@ -29,6 +29,9 @@
 vsp = 0;
 jumpspeed = 12;
 retry_alive=0;
+leaderbords_alive=0;
+achivments_alive=0;
+
 hsp=0;
 
 
@@ -74,7 +77,7 @@ y += vsp;
 if (y &gt; 358 &amp;&amp; global.gameover !=1)
 {
 global.gameover=1;
-if(retry_alive==0)
+if(retry_alive==0 &amp;&amp; leaderbords_alive == 0 &amp;&amp; achivments_alive == 0)
 {
 if global.score &gt; global.highscore // If the current score is higher than the previously saved high score
 {
@@ -83,8 +86,12 @@ ini_open("score.ini"); // OPen the ini file
 ini_write_real("score","highscore",global.highscore); // Write the new value
 ini_close(); // Close the ini file
 }
-instance_create(400,300,obj_retry)
+instance_create(400,335,obj_retry)
 retry_alive=1;
+instance_create (50,50,obj_leaderbord);
+leaderbords_alive=1;
+instance_create (750,50,obj_trophy)
+achivments_alive=1;
 }
 
 }
