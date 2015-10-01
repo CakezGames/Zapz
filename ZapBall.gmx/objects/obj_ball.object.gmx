@@ -88,16 +88,62 @@ ini_close(); // Close the ini file
 if (os_type == os_android)
 {
     if achievement_available() {
-        achievement_post_score("CgkIjs3b46oeEAIQAA", global.HighScore);
+        achievement_post_score("CgkIjs3b46oeEAIQAA", global.highscore);
     }
 }
 
 if (os_type == os_ios)
 {
 if achievement_available() {
-    achievement_post_score("highscores_leaderboard", global.HighScore);
+    achievement_post_score("highscores_leaderboard", global.highscore);
+    }
+    
+}
+}
+if (os_type == os_android)
+{
+    if(global.highscore&gt;9){
+        achievement_post("CgkIjs3b46oeEAIQAQ", 100);
+    }
+    
+    if(global.highscore&gt;19){
+        achievement_post("CgkIjs3b46oeEAIQAg", 100);
+    }
+    
+    if(global.highscore&gt;29){
+        achievement_post("CgkIjs3b46oeEAIQAw", 100); 
+    }
+    
+    if(global.highscore&gt;39){
+        achievement_post("CgkIjs3b46oeEAIQBA", 100);
+    }
+    
+    if(global.highscore&gt;49){
+        achievement_post("CgkIjs3b46oeEAIQBQ", 100);
     }
 }
+
+if (os_type == os_ios)
+{
+    if(global.highscore&gt;9){
+        achievement_post("learningtofly_ach", 100);
+    }
+    
+    if(global.highscore&gt;19){
+        achievement_post("gettingbetter_ach", 100);
+    }
+    
+    if(global.highscore&gt;29){
+        achievement_post("startingtolookgood_ach", 100); 
+    }
+    
+    if(global.highscore&gt;39){
+        achievement_post("almostadecentflyer_ach", 100);
+    }
+    
+    if(global.highscore&gt;49){
+        achievement_post("adecentflyer_ach", 100);
+    }
 }
 instance_create(400,335,obj_retry)
 retry_alive=1;
@@ -115,6 +161,7 @@ if (place_meeting(x,y+1,obj_ground)&amp;&amp; global.gameover==0)
 {
     vsp = key_jump * -jumpspeed;
 }
+
 
 
 </string>
@@ -149,6 +196,74 @@ obj_text.hspeed=-8;
 image_speed=1;
 }
 </string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>612</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>-1</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_if_variable</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>global.gameover</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>2</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>601</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_execute_script</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>9</kind>
+            <script>EnableAds</script>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
           </argument>
         </arguments>
       </action>

@@ -4,9 +4,9 @@
     <option_aborterrors>False</option_aborterrors>
     <option_android_GPU_device>0</option_android_GPU_device>
     <option_android_adcolony_enable_V4VC>0</option_android_adcolony_enable_V4VC>
-    <option_android_advertising_enable>0</option_android_advertising_enable>
-    <option_android_advertising_key></option_android_advertising_key>
-    <option_android_advertising_type>MoPub</option_android_advertising_type>
+    <option_android_advertising_enable>-1</option_android_advertising_enable>
+    <option_android_advertising_key>212458|0|</option_android_advertising_key>
+    <option_android_advertising_type>Millennial Media</option_android_advertising_type>
     <option_android_amazon_game_circle>0</option_android_amazon_game_circle>
     <option_android_amazon_gc_achievements>-1</option_android_amazon_gc_achievements>
     <option_android_amazon_gc_leaderboards>-1</option_android_amazon_gc_leaderboards>
@@ -125,7 +125,7 @@
     <option_ios_adcolony_enable_V4VC>0</option_ios_adcolony_enable_V4VC>
     <option_ios_advertising_enable>0</option_ios_advertising_enable>
     <option_ios_advertising_key></option_ios_advertising_key>
-    <option_ios_advertising_type>iAds</option_ios_advertising_type>
+    <option_ios_advertising_type>Millennial Media</option_ios_advertising_type>
     <option_ios_app_id></option_ios_app_id>
     <option_ios_build_version>0</option_ios_build_version>
     <option_ios_certificate>&lt; Press refresh to fetch certificate list from Mac&gt;</option_ios_certificate>
