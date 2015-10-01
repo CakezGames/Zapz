@@ -79,7 +79,7 @@ ini_open("score.ini"); // OPen the ini file
 ini_write_real("score","highscore",global.highscore); // Write the new value
 ini_close(); // Close the ini file
 }
-instance_create(250,300,obj_retry)
+instance_create(400,300,obj_retry)
 retry_alive=1;
 }
 
