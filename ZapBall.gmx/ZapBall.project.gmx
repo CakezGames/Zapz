@@ -49,6 +49,7 @@
     <object>objects\obj_trophy</object>
     <object>objects\obj_snd</object>
     <object>objects\obj_retry</object>
+    <object>objects\obj_leaderbord</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Game</room>
