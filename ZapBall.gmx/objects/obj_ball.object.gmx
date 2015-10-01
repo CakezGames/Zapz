@@ -31,9 +31,8 @@ jumpspeed = 12;
 retry_alive=0;
 leaderbords_alive=0;
 achivments_alive=0;
-
 hsp=0;
-
+image_speed=0;
 
 
 
@@ -147,6 +146,7 @@ with obj_leaderbord instance_destroy();
 with obj_ground_first alarm[0]=120;
 global.gameover=0;
 obj_text.hspeed=-8;
+image_speed=1;
 }
 </string>
           </argument>
