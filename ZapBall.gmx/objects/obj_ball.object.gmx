@@ -85,6 +85,20 @@ global.highscore = global.score; // set global.highscore to the NEW high score
 ini_open("score.ini"); // OPen the ini file
 ini_write_real("score","highscore",global.highscore); // Write the new value
 ini_close(); // Close the ini file
+
+if (os_type == os_android)
+{
+    if achievement_available() {
+        achievement_post_score("CgkIjs3b46oeEAIQAA", global.HighScore);
+    }
+}
+
+if (os_type == os_ios)
+{
+if achievement_available() {
+    achievement_post_score("highscores_leaderboard", global.HighScore);
+    }
+}
 }
 instance_create(400,335,obj_retry)
 retry_alive=1;

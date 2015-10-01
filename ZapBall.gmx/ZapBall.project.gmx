@@ -32,6 +32,14 @@
     <background>background\background6</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\DisableAds.gml</script>
+    <script>scripts\EnableAds.gml</script>
+    <script>scripts\FetchAchievements.gml</script>
+    <script>scripts\LoadLeaderboardAndAchievements.gml</script>
+    <script>scripts\ShowAchievements.gml</script>
+    <script>scripts\ShowLeaderboard.gml</script>
+  </scripts>
   <fonts name="fonts">
     <font>fonts\font_highscore</font>
     <font>fonts\font_score</font>

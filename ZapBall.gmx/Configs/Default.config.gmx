@@ -23,11 +23,11 @@
     <option_android_color_depth>0</option_android_color_depth>
     <option_android_display_name>ZapBall</option_android_display_name>
     <option_android_google_analytics_enable>false</option_android_google_analytics_enable>
-    <option_android_google_play>0</option_android_google_play>
-    <option_android_google_play_id></option_android_google_play_id>
+    <option_android_google_play>-1</option_android_google_play>
+    <option_android_google_play_id>1042275559054</option_android_google_play_id>
     <option_android_google_tracking_id></option_android_google_tracking_id>
     <option_android_iap_suppress_toast>false</option_android_iap_suppress_toast>
-    <option_android_icade_support>-1</option_android_icade_support>
+    <option_android_icade_support>0</option_android_icade_support>
     <option_android_icon_hdpi>Configs\Default\android\icons\icon_hdpi.png</option_android_icon_hdpi>
     <option_android_icon_ldpi>Configs\Default\android\icons\icon_ldpi.png</option_android_icon_ldpi>
     <option_android_icon_mdpi>Configs\Default\android\icons\icon_mdpi.png</option_android_icon_mdpi>
@@ -50,7 +50,7 @@
     <option_android_package_company>cakez</option_android_package_company>
     <option_android_package_domain>com</option_android_package_domain>
     <option_android_package_product>ZapBall</option_android_package_product>
-    <option_android_permission_flags>15</option_android_permission_flags>
+    <option_android_permission_flags>14</option_android_permission_flags>
     <option_android_pocketchange_enable>0</option_android_pocketchange_enable>
     <option_android_pocketchange_id></option_android_pocketchange_id>
     <option_android_pocketchange_test_enable>0</option_android_pocketchange_test_enable>
