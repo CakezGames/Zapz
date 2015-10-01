@@ -96,12 +96,6 @@ if (place_meeting(x,y+1,obj_ground)&amp;&amp; global.gameover==0)
     vsp = key_jump * -jumpspeed;
 }
 
-/*if (global.gameover!=2)
-{
-image_angle +=-10;
-}
-
- 
 
 </string>
           </argument>
@@ -129,8 +123,8 @@ image_angle +=-10;
 {
 with obj_trophy instance_destroy();
 with obj_leaderbord instance_destroy();
+with obj_ground_first alarm[0]=120;
 global.gameover=0;
-global.hsp = -8.5;
 obj_text.hspeed=-8;
 }
 </string>
