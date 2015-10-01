@@ -29,6 +29,7 @@
 vsp = 0;
 jumpspeed = 12;
 retry_alive=0;
+hsp=0;
 
 
 
@@ -57,7 +58,8 @@ retry_alive=0;
             <kind>1</kind>
             <string>key_jump= mouse_check_button(mb_left);
 
-if ((place_meeting(x,y+vsp,obj_ground))&amp;&amp; global.gameover !=1)
+
+if ((place_meeting(x,y+vsp,obj_ground))&amp;&amp; global.gameover !=1 )
 {
     while(!place_meeting(x,y+sign(vsp),obj_ground))
     {
@@ -65,9 +67,11 @@ if ((place_meeting(x,y+vsp,obj_ground))&amp;&amp; global.gameover !=1)
     }
     vsp = 0;
 }
+
 y += vsp;
 
-if (y &gt; 356)
+
+if (y &gt; 358 &amp;&amp; global.gameover !=1)
 {
 global.gameover=1;
 if(retry_alive==0)
@@ -92,7 +96,7 @@ if (place_meeting(x,y+1,obj_ground)&amp;&amp; global.gameover==0)
     vsp = key_jump * -jumpspeed;
 }
 
-if (global.gameover!=2)
+/*if (global.gameover!=2)
 {
 image_angle +=-10;
 }

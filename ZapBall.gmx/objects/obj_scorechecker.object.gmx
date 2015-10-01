@@ -55,7 +55,7 @@ instance_destroy();
           <argument>
             <kind>1</kind>
             <string>global.score ++;
-global.spawnrate -= 13;
+global.spawnrate -= 12;
 global.hsp  -= 0.4;
 instance_destroy();
 
