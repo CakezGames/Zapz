@@ -5,8 +5,8 @@
     <option_android_GPU_device>0</option_android_GPU_device>
     <option_android_adcolony_enable_V4VC>0</option_android_adcolony_enable_V4VC>
     <option_android_advertising_enable>0</option_android_advertising_enable>
-    <option_android_advertising_key>212458|0|</option_android_advertising_key>
-    <option_android_advertising_type>Millennial Media</option_android_advertising_type>
+    <option_android_advertising_key></option_android_advertising_key>
+    <option_android_advertising_type>AdMob</option_android_advertising_type>
     <option_android_amazon_game_circle>0</option_android_amazon_game_circle>
     <option_android_amazon_gc_achievements>-1</option_android_amazon_gc_achievements>
     <option_android_amazon_gc_leaderboards>-1</option_android_amazon_gc_leaderboards>
@@ -62,7 +62,7 @@
     <option_android_splash_png>Configs\Default\android\splash.png</option_android_splash_png>
     <option_android_target_sdk_version>16</option_android_target_sdk_version>
     <option_android_texture_page>1024</option_android_texture_page>
-    <option_android_use_test_ads>-1</option_android_use_test_ads>
+    <option_android_use_test_ads>0</option_android_use_test_ads>
     <option_argumenterrors>True</option_argumenterrors>
     <option_audioGroupCount>1</option_audioGroupCount>
     <option_author></option_author>
@@ -125,7 +125,7 @@
     <option_ios_adcolony_enable_V4VC>0</option_ios_adcolony_enable_V4VC>
     <option_ios_advertising_enable>0</option_ios_advertising_enable>
     <option_ios_advertising_key></option_ios_advertising_key>
-    <option_ios_advertising_type>Millennial Media</option_ios_advertising_type>
+    <option_ios_advertising_type>Admob</option_ios_advertising_type>
     <option_ios_app_id></option_ios_app_id>
     <option_ios_build_version>0</option_ios_build_version>
     <option_ios_certificate>&lt; Press refresh to fetch certificate list from Mac&gt;</option_ios_certificate>
@@ -448,7 +448,7 @@
     <option_xbone_ratings>"&lt;mx:Ratings Category=""game""&gt;","&lt;!-- Insert your title ratings here --&gt;","&lt;!-- See ""Title Ratings for Xbox One"" white paper --&gt;","&lt;!-- from developer.xboxlive.com for details --&gt;","&lt;/mx:Ratings&gt;"</option_xbone_ratings>
     <option_xbone_require_audio_recording>False</option_xbone_require_audio_recording>
     <option_xbone_require_game_chat>False</option_xbone_require_game_chat>
-    <option_xbone_require_xbox_live>0</option_xbone_require_xbox_live>
+    <option_xbone_require_xbox_live>True</option_xbone_require_xbox_live>
     <option_xbone_revision_version>0</option_xbone_revision_version>
     <option_xbone_scale>-1</option_xbone_scale>
     <option_xbone_service_config_id></option_xbone_service_config_id>
