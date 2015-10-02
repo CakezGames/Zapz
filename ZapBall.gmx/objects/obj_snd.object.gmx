@@ -86,7 +86,7 @@
         <arguments>
           <argument>
             <kind>9</kind>
-            <script>DisableAds</script>
+            <script>EnableAds</script>
           </argument>
           <argument>
             <kind>0</kind>

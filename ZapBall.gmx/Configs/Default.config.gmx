@@ -4,7 +4,7 @@
     <option_aborterrors>False</option_aborterrors>
     <option_android_GPU_device>0</option_android_GPU_device>
     <option_android_adcolony_enable_V4VC>0</option_android_adcolony_enable_V4VC>
-    <option_android_advertising_enable>-1</option_android_advertising_enable>
+    <option_android_advertising_enable>0</option_android_advertising_enable>
     <option_android_advertising_key>212458|0|</option_android_advertising_key>
     <option_android_advertising_type>Millennial Media</option_android_advertising_type>
     <option_android_amazon_game_circle>0</option_android_amazon_game_circle>
@@ -35,7 +35,7 @@
     <option_android_icon_xxhdpi>Configs\Default\android\icons\icon_xxhdpi.png</option_android_icon_xxhdpi>
     <option_android_icon_xxxhdpi>Configs\Default\android\icons\icon_xxxhdpi.png</option_android_icon_xxxhdpi>
     <option_android_install_location>auto</option_android_install_location>
-    <option_android_interpolate>-1</option_android_interpolate>
+    <option_android_interpolate>0</option_android_interpolate>
     <option_android_licensing_enable>-1</option_android_licensing_enable>
     <option_android_licensing_key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlNBjUL9wxv50jrXFL8YCpH3VE3vLu12AaJA/h8QCcOhfqrWUdOUVLmW6cnC9Hjwg+9Gz1UXDJw+TGsifXkcuJ99XEOUoCtcx+HXcmtq4rL1UwOlYBcQvo/PZHE7te1pwwaXF7c5uHWdruKgz+XpFny3sm1+0IDbqgY+xwyk/HtjYtTe2vp0h23DvZF2aLUg/hN8MZ0zmu/3jpcecB8jWGdnmZXRta+/Dx9SEcPw3xBTbnpTrCudm5xKH6OeYqqY9CpBU048fxBmtUgF4ZLFEQcdvUWOaFVGZaqJjdI4x9l9i5K8pocuix+hInUDQMG+IwahCtWsTx8IwSN7s/u+oowIDAQAB</option_android_licensing_key>
     <option_android_major_version>1</option_android_major_version>
@@ -448,7 +448,7 @@
     <option_xbone_ratings>"&lt;mx:Ratings Category=""game""&gt;","&lt;!-- Insert your title ratings here --&gt;","&lt;!-- See ""Title Ratings for Xbox One"" white paper --&gt;","&lt;!-- from developer.xboxlive.com for details --&gt;","&lt;/mx:Ratings&gt;"</option_xbone_ratings>
     <option_xbone_require_audio_recording>False</option_xbone_require_audio_recording>
     <option_xbone_require_game_chat>False</option_xbone_require_game_chat>
-    <option_xbone_require_xbox_live>True</option_xbone_require_xbox_live>
+    <option_xbone_require_xbox_live>0</option_xbone_require_xbox_live>
     <option_xbone_revision_version>0</option_xbone_revision_version>
     <option_xbone_scale>-1</option_xbone_scale>
     <option_xbone_service_config_id></option_xbone_service_config_id>
