@@ -4,11 +4,11 @@
   <solid>0</solid>
   <visible>-1</visible>
   <depth>0</depth>
-  <persistent>0</persistent>
+  <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="7" enumb="2">
+    <event eventtype="0" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -25,8 +25,12 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>GoogleMobileAds_Init("ca-app-pub-5107700493883853/9140784321");
-GoogleMobileAds_AddBannerAt("ca-app-pub-5107700493883853/9140784321", GoogleMobileAds_Banner,0,0);
+            <string>global.bannerId = "ca-app-pub-5107700493883853/9140784321";
+
+GoogleMobileAds_Init(global.bannerId);
+GoogleMobileAds_AddBannerAt(global.bannerId, GoogleMobileAds_Banner,220,0);
+
+
 
 
 

@@ -355,6 +355,7 @@ obj_text.hspeed=-8;
 image_speed=1;
 global.gameover=0;
 }
+
 </string>
           </argument>
         </arguments>
