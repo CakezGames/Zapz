@@ -64,6 +64,7 @@ global.spawnrate = 220;</code>
     <instance objName="obj_ground_first" x="397" y="490" name="inst_351AD349" locked="0" code="" scaleX="1.37999999523163" scaleY="1.12000000476837" colour="4294967295" rotation="0"/>
     <instance objName="obj_ground_spawner" x="-352" y="256" name="inst_9EFBA35B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_adcontrol" x="32" y="64" name="inst_026BB3A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_shadow" x="224" y="352" name="inst_1CF74D17" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

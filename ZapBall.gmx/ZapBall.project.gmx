@@ -15,7 +15,6 @@
     <sprite>sprites\spr_graund</sprite>
     <sprite>sprites\spr_antenn</sprite>
     <sprite>sprites\spr_parabol</sprite>
-    <sprite>sprites\dwa</sprite>
     <sprites name="Menu">
       <sprite>sprites\spr_text</sprite>
       <sprite>sprites\spr_retry</sprite>
@@ -24,14 +23,13 @@
     <sprite>sprites\spr_zapz</sprite>
     <sprite>sprites\spr_trophy</sprite>
     <sprite>sprites\spr_highscore</sprite>
+    <sprite>sprites\spr_shadow</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
     <background>background\background2</background>
     <background>background\background3</background>
     <background>background\background4</background>
-    <background>background\background5</background>
-    <background>background\background6</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -60,6 +58,7 @@
     <object>objects\obj_retry</object>
     <object>objects\obj_leaderbord</object>
     <object>objects\obj_adcontrol</object>
+    <object>objects\obj_shadow</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Game</room>
