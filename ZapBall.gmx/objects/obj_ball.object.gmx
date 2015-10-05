@@ -349,7 +349,7 @@ achivments_alive=1;
 {
 with obj_trophy instance_destroy();
 with obj_leaderbord instance_destroy();
-with obj_ground_first alarm[0]=120;
+with obj_ground_first alarm[0]=100;
 obj_text.hspeed=-8;
 image_speed=1;
 global.gameover=0;
