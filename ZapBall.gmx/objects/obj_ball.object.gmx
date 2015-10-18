@@ -146,7 +146,7 @@ if (os_type == os_ios)
     }
 }
 global.interstitial ++;
-if GoogleMobileAds_InterstitialStatus() &amp;&amp; global.interstitial == 7 {
+if GoogleMobileAds_InterstitialStatus() == true &amp;&amp; global.interstitial == 7 {
 GoogleMobileAds_ShowInterstitial();
 global.interstitial=0;
 }
