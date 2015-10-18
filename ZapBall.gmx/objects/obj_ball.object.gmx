@@ -145,6 +145,11 @@ if (os_type == os_ios)
         achievement_post("adecentflyer_ach", 100);
     }
 }
+global.interstitial ++;
+if GoogleMobileAds_InterstitialStatus() &amp;&amp; global.interstitial == 7 {
+GoogleMobileAds_ShowInterstitial();
+global.interstitial=0;
+}
 instance_create(400,335,obj_retry)
 retry_alive=1;
 instance_create (50,50,obj_leaderbord);
