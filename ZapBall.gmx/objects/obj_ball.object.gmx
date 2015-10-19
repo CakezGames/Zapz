@@ -95,7 +95,7 @@ if (os_type == os_android)
 if (os_type == os_ios)
 {
 if achievement_available() {
-    achievement_post_score("highscores_leaderboard", global.highscore);
+    achievement_post_score("leaderboard_highscores", global.highscore);
     }
     
 }
