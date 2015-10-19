@@ -25,9 +25,18 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.bannerId = "ca-app-pub-5107700493883853/9140784321";
+            <string>global.interstitial = 0;
+if (os_type == os_android)
+{
+global.bannerId = "ca-app-pub-5107700493883853/9140784321";
 global.interstitialId = "ca-app-pub-5107700493883853/7995344729";
+}
 
+if (os_type == os_ios)
+{
+global.bannerId = "ca-app-pub-5107700493883853/9441725123";
+global.interstitialId = "ca-app-pub-5107700493883853/1918458323";
+}
 
 GoogleMobileAds_AddBannerAt(global.bannerId, GoogleMobileAds_Banner,220,0);
 GoogleMobileAds_Init(global.interstitialId);

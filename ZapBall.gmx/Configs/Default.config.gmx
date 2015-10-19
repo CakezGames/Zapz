@@ -19,7 +19,7 @@
     <option_android_arch_mipsr2>false</option_android_arch_mipsr2>
     <option_android_arch_mipsr2sf>false</option_android_arch_mipsr2sf>
     <option_android_arch_x86>True</option_android_arch_x86>
-    <option_android_build_version>5</option_android_build_version>
+    <option_android_build_version>6</option_android_build_version>
     <option_android_color_depth>1</option_android_color_depth>
     <option_android_display_name>Zapz</option_android_display_name>
     <option_android_google_analytics_enable>false</option_android_google_analytics_enable>
@@ -144,7 +144,7 @@
     <option_ios_icon_57>Configs\Default\ios\icons\icon57.png</option_ios_icon_57>
     <option_ios_icon_72>Configs\Default\ios\icons\icon72.png</option_ios_icon_72>
     <option_ios_icon_76>Configs\Default\ios\icons\icon76.png</option_ios_icon_76>
-    <option_ios_interpolate>-1</option_ios_interpolate>
+    <option_ios_interpolate>0</option_ios_interpolate>
     <option_ios_ipad_retina_splash_png>Configs\Default\ios\iPadRetinasplash.png</option_ios_ipad_retina_splash_png>
     <option_ios_ipad_retina_splash_portrait_png>Configs\Default\ios\iPadRetinasplashPortrait.png</option_ios_ipad_retina_splash_portrait_png>
     <option_ios_ipad_splash_png>Configs\Default\ios\iPadsplash.png</option_ios_ipad_splash_png>
@@ -162,15 +162,15 @@
     <option_ios_major_version>1</option_ios_major_version>
     <option_ios_minor_version>0</option_ios_minor_version>
     <option_ios_orient_landscape>-1</option_ios_orient_landscape>
-    <option_ios_orient_landscape_right>0</option_ios_orient_landscape_right>
+    <option_ios_orient_landscape_right>-1</option_ios_orient_landscape_right>
     <option_ios_orient_portrait>0</option_ios_orient_portrait>
     <option_ios_orient_portrait_upside_down>0</option_ios_orient_portrait_upside_down>
     <option_ios_provisioning>&lt; Press refresh to fetch provisioning list from Mac&gt;</option_ios_provisioning>
     <option_ios_push_enable>0</option_ios_push_enable>
-    <option_ios_scale>-1</option_ios_scale>
+    <option_ios_scale>0</option_ios_scale>
     <option_ios_set_device_id></option_ios_set_device_id>
     <option_ios_splash_png>Configs\Default\ios\splash.png</option_ios_splash_png>
-    <option_ios_texture_page>1024</option_ios_texture_page>
+    <option_ios_texture_page>512</option_ios_texture_page>
     <option_ios_use_test_ads>0</option_ios_use_test_ads>
     <option_lastchanged></option_lastchanged>
     <option_linux_display_name>ZapBall</option_linux_display_name>
