@@ -19,6 +19,7 @@
     <sprite>sprites\spr_zapz</sprite>
     <sprite>sprites\spr_trophy</sprite>
     <sprite>sprites\spr_highscore</sprite>
+    <sprite>sprites\spr_particle</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
