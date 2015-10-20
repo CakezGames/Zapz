@@ -29,8 +29,6 @@
 vsp = 0;
 jumpspeed = 12;
 retry_alive=0;
-leaderbords_alive=0;
-achivments_alive=0;
 hsp=0;
 image_speed=0;
 
@@ -60,23 +58,32 @@ image_speed=0;
             <kind>1</kind>
             <string>key_jump= mouse_check_button(mb_left);
 
+if (global.gameover==1)
+{
+global.hsp = 0;
+}
 
-if ((place_meeting(x,y+vsp,obj_ground))&amp;&amp; global.gameover !=1 )
+if ((place_meeting(x,y+vsp,obj_ground)) )
+{
+if (global.gameover !=1)
 {
     while(!place_meeting(x,y+sign(vsp),obj_ground))
     {
     y += sign(vsp);
     }
     vsp = 0;
+    }
 }
 
 y += vsp;
 
 
-if (y &gt; 400 &amp;&amp; global.gameover !=1)
+if (y &gt; 400)
+{
+if (global.gameover !=1)
 {
 global.gameover=1;
-if(retry_alive==0 &amp;&amp; leaderbords_alive == 0 &amp;&amp; achivments_alive == 0)
+if(retry_alive==0)
 {
 if global.score &gt; global.highscore // If the current score is higher than the previously saved high score
 {
@@ -126,45 +133,48 @@ if (os_type == os_android)
 if (os_type == os_ios)
 {
     if(global.highscore&gt;9){
-        achievement_post("learningtofly_ach", 100);
+        achievement_post("score_10", 100);
     }
     
     if(global.highscore&gt;19){
-        achievement_post("gettingbetter_ach", 100);
+        achievement_post("score_20", 100);
     }
     
     if(global.highscore&gt;29){
-        achievement_post("startingtolookgood_ach", 100); 
+        achievement_post("score_30", 100); 
     }
     
     if(global.highscore&gt;39){
-        achievement_post("almostadecentflyer_ach", 100);
+        achievement_post("score_40", 100);
     }
     
     if(global.highscore&gt;49){
-        achievement_post("adecentflyer_ach", 100);
+        achievement_post("score_50", 100);
     }
 }
-global.interstitial ++;
-if (global.interstitial == 6) {
+with obj_control{
+interstitial ++;
+if (interstitial == 6) {
 GoogleMobileAds_ShowInterstitial();
-
 }
-instance_create(400,335,obj_retry)
-retry_alive=1;
+}
+instance_create(400,335,obj_retry);
 instance_create (50,50,obj_leaderbord);
-leaderbords_alive=1;
-instance_create (750,50,obj_trophy)
-achivments_alive=1;
+instance_create (750,50,obj_trophy);
+retry_alive=1;
+}
 }
 
 }
 
 if (vsp &lt; 10) vsp += grav;
 
-if (place_meeting(x,y+1,obj_ground)&amp;&amp; global.gameover==0)
+if (place_meeting(x,y+1,obj_ground))
+{
+if (global.gameover ==0)
 {
     vsp = key_jump * -jumpspeed;
+    }
 }
 
 
@@ -235,7 +245,7 @@ if (place_meeting(x,y+1,obj_ground)&amp;&amp; global.gameover==0)
             <string>if (global.gameover !=1)
 {
 global.gameover=1;
-if(retry_alive==0 &amp;&amp; leaderbords_alive == 0 &amp;&amp; achivments_alive == 0)
+if(retry_alive==0)
 {
 if global.score &gt; global.highscore // If the current score is higher than the previously saved high score
 {
@@ -304,12 +314,10 @@ if (os_type == os_ios)
         achievement_post("adecentflyer_ach", 100);
     }
 }
-instance_create(400,335,obj_retry)
-retry_alive=1;
+instance_create(400,335,obj_retry);
 instance_create (50,50,obj_leaderbord);
-leaderbords_alive=1;
-instance_create (750,50,obj_trophy)
-achivments_alive=1;
+instance_create (750,50,obj_trophy);
+retry_alive=1;
 }
 
 }
@@ -352,39 +360,11 @@ achivments_alive=1;
             <kind>1</kind>
             <string>if (global.gameover==2)
 {
-with obj_trophy instance_destroy();
-with obj_leaderbord instance_destroy();
 with obj_ground_first alarm[0]=100;
 obj_text.hspeed=-8;
 image_speed=1;
 global.gameover=0;
 }
-
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="8" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>draw_self();
-
-
 
 </string>
           </argument>

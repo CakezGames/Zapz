@@ -25,50 +25,35 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.bannerId = 0;
-global.interstitialId = 0;
-global.interstitial = 0;
+            <string>interstitial = 0;
+bannerId = 0;
+interstitialId = 0;
 if (os_type == os_android)
 {
-global.bannerId = "ca-app-pub-5107700493883853/9140784321";
-global.interstitialId = "ca-app-pub-5107700493883853/7995344729";
+bannerId = "ca-app-pub-5107700493883853/9140784321";
+interstitialId = "ca-app-pub-5107700493883853/7995344729";
 }
 
 if (os_type == os_ios)
 {
-global.bannerId = "ca-app-pub-5107700493883853/9441725123";
-global.interstitialId = "ca-app-pub-5107700493883853/1918458323";
+bannerId = "ca-app-pub-5107700493883853/9441725123";
+interstitialId = "ca-app-pub-5107700493883853/1918458323";
 }
-global.bannerId = 0;
-GoogleMobileAds_AddBannerAt(global.bannerId, GoogleMobileAds_Banner,220,0);
-GoogleMobileAds_Init(global.interstitialId);
+GoogleMobileAds_AddBannerAt(bannerId, GoogleMobileAds_Banner,220,0);
+GoogleMobileAds_Init(interstitialId);
 GoogleMobileAds_LoadInterstitial();
 
+if file_exists("score.ini") //Check if ini file exists
+{
+ini_open("score.ini"); // open it
+global.highscore = ini_read_real("score","highscore",0); // load the value of the high score, set it to global.highscore, default 0.
+ini_close(); //close ini
+}
+else 
+{
+global.highscore = 0; // No ini, brand new game, set high score to 0.
+}
 
-
-
-
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>
 //particle system
 part1_sys = part_system_create();
 part_system_depth(part1_sys,20);
@@ -93,27 +78,6 @@ part_type_blend(part1,1);
 part1_emit = part_emitter_create(part1_sys);
 
 
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>
 //create particle system
 snow = part_system_create()
 part_system_depth(snow,50)
@@ -132,36 +96,8 @@ part_type_life(snowflake,150,150)
 snow_emitter = part_emitter_create(snow)
 part_emitter_region(snow,snow_emitter,0-100,room_width+100,-10,-5,ps_shape_ellipse,ps_distr_linear)
 part_emitter_stream(snow,snow_emitter,snowflake,-15)
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>if file_exists("score.ini") //Check if ini file exists
-{
-ini_open("score.ini"); // open it
-global.highscore = ini_read_real("score","highscore",0); // load the value of the high score, set it to global.highscore, default 0.
-ini_close(); //close ini
-}
-else 
-{
-global.highscore = 0; // No ini, brand new game, set high score to 0.
-}
+
+
 </string>
           </argument>
         </arguments>
