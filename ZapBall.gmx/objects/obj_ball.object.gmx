@@ -270,9 +270,8 @@ if (os_type == os_android)
 if (os_type == os_ios)
 {
 if achievement_available() {
-    achievement_post_score("highscores_leaderboard", global.highscore);
-    }
-    
+    achievement_post_score("leaderboard_highscores", global.highscore);
+    }       
 }
 }
 if (os_type == os_android)
@@ -301,28 +300,28 @@ if (os_type == os_android)
 if (os_type == os_ios)
 {
     if(global.highscore&gt;9){
-        achievement_post("learningtofly_ach", 100);
+        achievement_post("score_10", 100);
     }
     
     if(global.highscore&gt;19){
-        achievement_post("gettingbetter_ach", 100);
+        achievement_post("score_20", 100);
     }
     
     if(global.highscore&gt;29){
-        achievement_post("startingtolookgood_ach", 100); 
+        achievement_post("score_30", 100); 
     }
     
     if(global.highscore&gt;39){
-        achievement_post("almostadecentflyer_ach", 100);
+        achievement_post("score_40", 100);
     }
     
     if(global.highscore&gt;49){
-        achievement_post("adecentflyer_ach", 100);
+        achievement_post("score_50", 100);
     }
 }
-instance_create(400,335,obj_retry);
-instance_create (50,50,obj_leaderbord);
-instance_create (750,50,obj_trophy);
+instance_create(300,335,obj_retry);
+instance_create (400,335,obj_leaderbord);
+instance_create (500,335,obj_trophy);
 retry_alive=1;
 }
 
