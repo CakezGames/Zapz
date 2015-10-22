@@ -83,13 +83,22 @@ image_index = 0;
             <kind>1</kind>
             <string>//Toggle pause
 if(game_is_paused()) {
+with obj_retry instance_destroy();
+with obj_leaderbord instance_destroy() ;
+with obj_trophy instance_destroy();
     game_resume();
+
 } else {
     game_pause();
+    instance_create(300,335,obj_retry);
+instance_create (400,335,obj_leaderbord);
+instance_create (500,335,obj_trophy);
 }
 
 //the image_index code below is optional, it's to change the sprite of the pause button.
 image_index = game_is_paused();
+
+
 </string>
           </argument>
         </arguments>
