@@ -164,9 +164,9 @@ if (interstitial == 6) {
 GoogleMobileAds_ShowInterstitial();
 }
 }
-instance_create(400,335,obj_retry);
-instance_create (50,50,obj_leaderbord);
-instance_create (750,50,obj_trophy);
+instance_create(300,335,obj_retry);
+instance_create (400,335,obj_leaderbord);
+instance_create (500,335,obj_trophy);
 retry_alive=1;
 }
 }
