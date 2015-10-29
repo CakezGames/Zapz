@@ -31,14 +31,14 @@ bannerId = 0;
 interstitialId = 0;
 if (os_type == os_android)
 {
-bannerId = "ca-app-pub-5107700493883853/9140784321";
-interstitialId = "ca-app-pub-5107700493883853/7995344729";
+bannerId = "ca-app-pub-5449830133176064/9324886034";
+interstitialId = "ca-app-pub-5449830133176064/1801619236";
 }
 
 if (os_type == os_ios)
 {
-bannerId = "ca-app-pub-5107700493883853/9441725123";
-interstitialId = "ca-app-pub-5107700493883853/1918458323";
+bannerId = "ca-app-pub-5449830133176064/9324886034";
+interstitialId = "ca-app-pub-5449830133176064/1801619236";
 }
 GoogleMobileAds_AddBannerAt(bannerId, GoogleMobileAds_Banner,220,0);
 GoogleMobileAds_Init(interstitialId);

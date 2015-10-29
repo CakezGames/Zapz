@@ -319,6 +319,12 @@ if (os_type == os_ios)
         achievement_post("score_50", 100);
     }
 }
+with obj_control{
+interstitial ++;
+if (interstitial == 6) {
+GoogleMobileAds_ShowInterstitial();
+}
+}
 instance_create(300,335,obj_retry);
 instance_create (400,335,obj_leaderbord);
 instance_create (500,335,obj_trophy);

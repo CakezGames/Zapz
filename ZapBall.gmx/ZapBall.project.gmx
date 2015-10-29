@@ -6,7 +6,6 @@
   <datafiles number="2" name="datafiles"/>
   <NewExtensions>
     <extension index="0">extensions\GoogleMobileAdsExt</extension>
-    <extension index="1">extensions\Pause Extension</extension>
   </NewExtensions>
   <sounds name="sound">
     <sound>sound\snd_bckgnd</sound>
@@ -36,11 +35,6 @@
     <script>scripts\LoadLeaderboardAndAchievements.gml</script>
     <script>scripts\ShowAchievements.gml</script>
     <script>scripts\ShowLeaderboard.gml</script>
-    <scripts name="Pause Extension">
-      <script>scripts\game_pause.gml</script>
-      <script>scripts\game_resume.gml</script>
-      <script>scripts\game_is_paused.gml</script>
-    </scripts>
   </scripts>
   <shaders name="shaders">
     <shader type="GLSLES">shaders\shader0.shader</shader>
@@ -59,10 +53,6 @@
     <object>objects\obj_retry</object>
     <object>objects\obj_leaderbord</object>
     <object>objects\obj_control</object>
-    <objects name="Pause Extension">
-      <object>objects\obj_pause</object>
-      <object>objects\parent_dont_pause</object>
-    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\Game</room>
