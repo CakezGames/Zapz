@@ -22,6 +22,7 @@
     <sprite>sprites\spr_highscore</sprite>
     <sprite>sprites\spr_particle</sprite>
     <sprite>sprites\spr_pause</sprite>
+    <sprite>sprites\spr_combo</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -53,6 +54,14 @@
     <object>objects\obj_retry</object>
     <object>objects\obj_leaderbord</object>
     <object>objects\obj_control</object>
+<<<<<<< HEAD
+=======
+    <object>objects\obj_combo</object>
+    <objects name="Pause Extension">
+      <object>objects\obj_pause</object>
+      <object>objects\parent_dont_pause</object>
+    </objects>
+>>>>>>> origin/master
   </objects>
   <rooms name="rooms">
     <room>rooms\Game</room>
