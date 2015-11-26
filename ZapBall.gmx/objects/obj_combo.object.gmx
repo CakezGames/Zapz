@@ -25,10 +25,35 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_speed= 0;
-image_alpha = 1;
-with obj_control alarm[6]= 15;
+            <string>combo=0;
+image_speed= 0;
+image_alpha = 0;
 fade = false;
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>fade = true;
+
 </string>
           </argument>
         </arguments>
@@ -51,26 +76,29 @@ fade = false;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if fade = true
+            <string>if (combo ==3)
+{ 
+if (image_index&lt;7){
+if (global.score!=3){
+image_index++;
+}
+}
+image_alpha=1;
+alarm[0]=15;
+combo=0;
+}
+
+
+if fade = true
 {
 image_alpha -= 0.01;
 }
-
-if (image_alpha = 0)
+if image_alpha&lt;0.01
 {
-instance_destroy();
+fade=false;
 }
 
-if global.score ==3
-image_index = 0;
-if global.score == 6
-image_index=1;
-if global.score ==9
-image_index=2;
-if global.score ==12
-image_index=3;
-if global.score ==15
-image_index=4;
+
 </string>
           </argument>
         </arguments>

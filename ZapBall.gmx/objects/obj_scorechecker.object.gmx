@@ -55,16 +55,11 @@ instance_destroy();
           <argument>
             <kind>1</kind>
             <string>global.score ++;
-if global.score ==3
-instance_create(310,240,obj_combo);
-if global.score == 6
-instance_create(310,240,obj_combo)
-if global.score ==9
-instance_create(310,240,obj_combo);
-if global.score ==12
-instance_create(370,240,obj_combo);
-if global.score ==15
-instance_create(370,240,obj_combo);
+with obj_combo combo++;
+
+
+
+
 
 global.spawnrate -= 12;
 global.hsp  -= 0.4;

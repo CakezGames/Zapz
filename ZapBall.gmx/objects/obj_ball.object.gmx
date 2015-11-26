@@ -25,7 +25,12 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>roll=0;
+            <string>display_ratio = window_get_width() / window_get_height();
+view_hview = room_height;
+view_wview = display_ratio * room_height;
+view_wport = window_get_width();
+view_hport = window_get_height();
+roll=0;
 facing =0;
 grav = 0.8;
 vsp = 0;

@@ -31,8 +31,8 @@ bannerId = 0;
 interstitialId = 0;
 if (os_type == os_android)
 {
-bannerId = "ca-app-pub-5449830133176064/9324886034";
-interstitialId = "ca-app-pub-5449830133176064/1801619236";
+bannerId = "ca-app-pub-5107700493883853/9140784321";
+interstitialId = "ca-app-pub-5107700493883853/7995344729";
 }
 
 if (os_type == os_ios)
@@ -111,30 +111,6 @@ part_emitter_stream(snow,snow_emitter,snowflake,-15)
           <argument>
             <kind>1</kind>
             <string>part_system_destroy(snow);
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="2" enumb="6">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>with obj_combo fade = true;
-
 </string>
           </argument>
         </arguments>
@@ -248,6 +224,7 @@ part_emitter_burst(part1_sys,part1_emit,part1,-3)
           <argument>
             <kind>1</kind>
             <string>shader_set(shader0);
+shader_reset();
 </string>
           </argument>
         </arguments>

@@ -24,10 +24,7 @@
     <sprite>sprites\spr_combo</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\background0</background>
     <background>background\background2</background>
-    <background>background\background3</background>
-    <background>background\background4</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
